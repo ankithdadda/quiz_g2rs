@@ -1,0 +1,35 @@
+body { 
+    text-align: center;
+}
+
+#question{
+    color: red;
+}
+
+#options{
+    color:chocolate;
+    font-size: 22px;
+    padding: auto;
+}
+
+#quiz{
+    display: flex; 
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    margin: auto; 
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 30vh;
+}
+
+button {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
